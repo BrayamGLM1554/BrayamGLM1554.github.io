@@ -4,7 +4,7 @@ const galery = document.querySelector('.galery');
 const feed = document.querySelector('.conetedor-galery');
 const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
-const token = 'IGQWRPN1c5dDFUcE1YSk1hZAktZAWnhqX0RjMmZAmblNJX25nbVZAoUHBOWHdZAV3k4cWYzYzBCS2JVR1FTRjFVTmo2Y3RNTlkzN3dIQVVENGNxcGtxMGx1RnpIYnp4ZAHNrS2xRSnQzaFJ2S1ZAVcENhb01wcUswQUhoMk0ZD';
+const token = 'IGQWRNTEl0OXNfM0V4NlJvVk0yRExJNm5RNnJOUC0tN3VwUjI4aWpXZA05FY1lOcnhfMVNUTnlYWWlVT2FISGRudUVPOEtFUHVELUFPYkE2MDVrdmRzcE54RmViRWNtYjl6ZATBFWVF1aEhEdHgxOTZAmRVkxNEItd0UZD';
 
 const url = `https://graph.instagram.com/me/media?fields=thumbnail_url,media_url,caption,permalink&limit=80&access_token=${token}`;
 
